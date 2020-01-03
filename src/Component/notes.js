@@ -1,9 +1,11 @@
 import React from 'react'
+import { FaTrashAlt }  from 'react-icons/fa'
 
-export default function Notes( { id,text} ) {
+export default function Notes( { id,text, handleDeleteNote} ) {
     return (
-        <div>
+        <div className='note'>
            <span> {text }</span>
+           <FaTrashAlt onClick={() => handleDeleteNote(id)}/>
         </div>
     )
 }
