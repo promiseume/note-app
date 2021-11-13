@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Notes() {
+export default function Notes( { id,text} ) {
     return (
         <div>
-            <h1>hello</h1>
+           <span> {text }</span>
         </div>
     )
 }

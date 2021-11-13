@@ -4,6 +4,7 @@ body{
 .welcomepage{
   display: flex;
   justify-content: center;
+  margin-top:15%;
 }
 .welcomepage h1{
   color:#e9ebf0 ;
@@ -14,7 +15,7 @@ body{
   background-color:#79279c ;
   border: none;
   color:#e9ebf0 ;
-  padding: 15px 38px;
+  padding: 15px 58px;
   text-decoration: none;
   border-radius:8px;
   font-size: 1rem;
