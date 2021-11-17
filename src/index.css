@@ -37,8 +37,70 @@ body{
   min-height:170px;
   max-height: 500px;
 }
-.note-lists{
+.note-lists {
  display: grid;
  grid-gap: 1rem;
  grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
+}
+.addNewnote{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e9ebf0;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height:170px;
+  max-height: 500px;
+}
+
+textarea{
+  border: none;
+  background-color: #e9ebf0;
+  resize: none;
+}
+textarea:focus{
+  outline: none;
+}
+.add-note button{
+  background-color: #512066;
+  border: none;
+  border-radius: 15px;
+  padding: 7px 12px 7px 12px;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.add-note button:hover{
+  background-color:#e9ebf0;
+  color: #512066;
+  cursor: pointer;
+}
+.icon{
+  color: #512066;
+  cursor: pointer;
+}
+.search{
+  display: flex;
+  align-content: center;
+  background-color: #e9ebf0;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 1.5em;
+}
+.search input{
+  border: none;
+  background-color: #e9ebf0;
+}
+.search input:focus{
+  outline: none;
+}
+.addNewnote{
+  border: none;
+  border-radius: 15px;
+  background-color:#e9ebf0;
+}
+img, svg {
+  vertical-align: middle;
+  margin-top: 5px;
 }

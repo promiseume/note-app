@@ -1,7 +1,6 @@
-import Home from './Component/home';
+
 import NoteLists from './Component/noteLists';
 import { nanoid } from 'nanoid';
-import { Route, Switch } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import Search from './Component/search';
 
@@ -23,7 +22,7 @@ useEffect(() =>{
 
     const addNewNote = (text) =>{
         const newNote ={
-          id:nanoid,
+          id:nanoid(),
           text:text
         }
         const newNotes = [...notes, newNote];

@@ -5,7 +5,7 @@ export default function Notes( { id,text, handleDeleteNote} ) {
     return (
         <div className='note'>
            <span> {text }</span>
-           <FaTrashAlt onClick={() => handleDeleteNote(id)}/>
+           <FaTrashAlt className='icon' onClick={() => handleDeleteNote(id)}/>
         </div>
     )
 }
